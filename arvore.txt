@@ -1,0 +1,27 @@
+loja-lumina/
+├── .gitignore                    # Inicial
+├── README.md                     # Inicial
+├── requirements.txt              # Inicial, se usar Python
+├── app.py                        # Posterior: servidor Flask
+│
+├── data/
+│   └── produtos.json             # Posterior: produtos demonstrativos
+│
+├── templates/
+│   ├── index.html                # Inicial: página principal
+│   ├── produto.html              # Posterior: detalhes do produto
+│   ├── carrinho.html             # Posterior: carrinho de compras
+│   └── checkout.html             # Posterior: finalização demonstrativa
+│
+├── static/
+│   ├── css/
+│   │   └── style.css             # Inicial: estilos da loja
+│   ├── js/
+│   │   └── script.js             # Inicial: interações da interface
+│   └── img/                      # Posterior: imagens dos produtos
+│
+├── tests/
+│   └── test_app.py               # Posterior: testes do backend
+│
+└── notebooks/                    # Opcional: experimentos no Colab
+    └── .gitkeep                  # Somente se a pasta precisar existir
